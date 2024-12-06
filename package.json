@@ -12,6 +12,10 @@
     "packages/*"
   ],
   "scripts": {
+    "www:dev": "pnpm --filter=@learn-everything/www run dev",
+    "www:build": "pnpm --filter=@learn-everything/www run build",
+    "www:start": "pnpm --filter=@learn-everything/www run start",
+    "www:lint": "pnpm --filter=@learn-everything/www run lint",
     "cli:watch": "pnpm --filter=@learn-everything/cli run watch",
     "format": "prettier --write .",
     "lint": "eslint ."
